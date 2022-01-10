@@ -5,14 +5,14 @@ import React from "react";
 const Header = ({logo}) => {
     return(
     <header>
-        <div class="container">
+        <div className="container">
          
             <div className="logo">
                 <img src={logo}/>
             </div>
         
             
-            <nav class="menu" >
+            <nav className="menu" >
                 <ul className="header__list">
                     <li >
                         <a href="#home" className="header__link">Home</a>
@@ -30,6 +30,7 @@ const Header = ({logo}) => {
             </nav>
         </div>
     </header>
+    
     )
 }
 

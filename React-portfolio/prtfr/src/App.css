@@ -39,7 +39,7 @@ header{
 }
 
 .container{
-  width: 100%;
+  max-width: 1400px;
   height: 100%;
   display: flex;
   padding: 0 10px;
@@ -63,7 +63,7 @@ header{
   height: 100%;
   display: flex;
   justify-content: right;
-  margin-left: 30%;
+  /* margin-left: 30%; */
 
 }
 
@@ -89,4 +89,466 @@ header{
 
 .x{
   color: #0ff;
+}
+
+
+/* --------------- */
+
+
+.home{
+  margin-top: 5vh;
+  width: 100%;
+  height: 90vh;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  max-height: 730px;
+}
+
+.inf{
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.inf p{
+  font-size: 1.2em;
+  margin-bottom: 7px;
+}
+
+.anim-items{
+  transform: translate(0px,120%);
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.inf  h1{
+  font-weight: 700;
+  font-size: 3.5em;
+  margin-bottom: 7px;
+
+  transform: translate(0px,120%);
+  opacity: 0;
+  transition: 0.7s;
+}
+
+
+.inf   h3{
+  font-size: 1.9em;
+  color: #0fb;
+  margin-bottom: 7px;
+
+  transform: translate(0px,120%);
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.hire__me{
+  transition: 0.3s;
+  margin-top: 35px;
+  width: 187px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0fb;
+  border-radius: 3em;
+  color: black;
+  font-size: 1em;
+  padding-top: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+ 
+  box-shadow: 0 0.6rem 1.4rem rgb(0 0 0 / 25%);
+
+}
+
+
+.hire__me  a{
+      color: black;
+
+  }
+
+
+  .active{
+    transform: translate(0,0);
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.hire__me:hover{
+                
+  transition: 0.3s;
+  background-color: rgba(0, 255, 187, 0.719);
+}
+
+
+
+
+
+
+
+
+@media (min-width:1500px){
+  .container{
+      width: 1400px;
+     
+      
+  }
+ .logo{
+          width: 30%;
+      }
+
+  .hero-wrapper{
+      width: 1400px;
+  }
+
+  .skills__wrapper{
+      width: 1200px;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+
+
+      
+   }
+.skill{     
+       width: 300px;
+       height: 52px;       
+      }
+   .works__wrapper{
+       height: 50vh;
+      width: 1400px;
+      margin: 20vh;
+      
+     
+      
+  }
+   .item1{
+          width: 400px;
+          height: 300px;
+      }
+
+  .contact__wrapper{
+      margin-top: -7vh;
+      width: 1400px;
+  }
+
+  footer{
+      height: 170px;
+  }
+}
+
+
+
+@media (max-width:1500px){
+
+  .container{
+      width: 80%;
+      
+      
+  }
+.logo{
+          width: 30%;
+      }
+
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+
+     
+  }
+
+   .item1{
+          width: 350px;
+          height: 250px;
+      }
+ 
+
+  .hero-wrapper{
+      margin-top: 15vh;
+      width: 85%;
+  }
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+
+     
+  }
+
+  .contact__wrapper{
+      margin-top: 7vh;
+      width: 950px;
+  }
+
+  .skills{
+      margin-top: 17vh;
+  }
+
+  footer{
+      height: 130px;
+  }
+
+  .skills__wrapper{
+     width: 900px;
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+
+
+
+  }
+     .skill{
+   
+      width: 200px;
+      height: 41px;
+      
+     
+     }
+ 
+
+
+
+}
+
+@media (max-width:992px){
+ 
+  .container{
+      width: 80%; 
+  }
+
+   .logo{
+          width: 30%;
+      }
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+  }
+
+   .item1{
+          width: 300px;
+          height: 200px;
+      }
+ 
+
+  .hero-wrapper{
+      margin-top: 15vh;
+      width: 85%;
+  }
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+
+      
+  }
+
+  .contact__wrapper{
+      margin-top: 7vh;
+      width: 870px;
+
+     
+  }
+
+
+  .skills{
+      margin-top: 17vh;
+  }
+
+  footer{
+      height: 130px;
+  }
+
+  .skills__wrapper{
+     width: 750px;
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+
+
+     
+  }
+
+  .skill  p{
+    font-size: 0.7em;
+}
+
+
+  .skill{
+      width: 150px;
+      height: 35px;
+      
+    
+     }
+ 
+
+
+
+}
+
+@media (max-width:767px){
+  .container{
+      width: 100%;
+    
+
+      
+  }
+
+  .menu{
+          justify-content: space-around;
+          width: 100%;
+
+      }
+
+    
+      .header__list{
+          width: 100%;
+      }
+      .logo{
+          width: 1px;
+      }
+
+    .logo {
+      display: none;
+    }
+
+  .x{
+      flex-direction: column;
+      color: #0ff;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: center;
+
+    
+  }
+
+ 
+      .mail{
+          width: 80%;
+          height: 50px;
+          margin-left: 4%;
+          margin-bottom: 14px;
+      }
+
+  .number{
+          width: 80%;
+          height: 50px;
+          margin: 0;
+          
+      }
+  
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+
+     
+  }
+
+   .item1{
+          width: 300px;
+          height: 200px;
+      }
+ 
+
+  .hero-wrapper{
+      margin-top: 15vh;
+      width: 90%;
+    
+  
+      
+
+     
+
+     
+  }
+
+ .pht{
+          display: none;
+      }
+
+  .works__wrapper{
+      width: 85%;
+      margin: 20vh;
+
+  }
+
+  .contact__wrapper{
+      margin-top: 7vh;
+      width: 90%;
+    
+      flex-direction: column-reverse;
+
+     
+     
+  }
+
+ .contacts{
+          margin-top: 15vh;
+          width: 100%;
+      }
+
+  .skills{
+      margin-top: 7vh;
+  }
+
+  footer{
+      height: 130px;
+  }
+
+  .skills__wrapper{
+     width: 90%;
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+
+
+    
+  }
+ .skill{
+
+  
+      width: 150px;
+      height: 35px;                 
+     }
+
+     .skill p{
+       
+      font-size: 0.7em;
+     }
+
+  .about__me{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+
+     
+  }
+   .inform__about__me{
+          width: 80%;
+          margin-bottom: 7vh;
+      }
+
+  .sbm__btn{
+      position: relative;
+      left: 20%;
+      margin-bottom: 15vh;
+  }
+
+
+ 
+
 }
